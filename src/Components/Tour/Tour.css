@@ -1,0 +1,9 @@
+.container {
+margin:20px ;
+  margin:auto;
+}
+
+.tour-card{
+    background: rgb(233, 229, 229);
+    border: none;
+}
