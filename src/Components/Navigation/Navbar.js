@@ -16,13 +16,13 @@ import TourListComponent from '../Tour/TourListComponent';
 import LoginComponent from '../Auth/LoginComponent';
 import RegisterComponent from '../Auth/RegisterComponent';
 
-
+// fixed="top"
 
 function NavigationComponent() {
     return (
         <>
             <div >
-                <Navbar expand="lg" fixed="top" className='nav-container'  >
+                <Navbar expand="lg" className='nav-container sticky-nav'  >
                     <Container fluid>
                         <Nav>
                             <Nav.Link as={Link} to={'/home'} className="titel-link">Travel Market</Nav.Link>
