@@ -1,9 +1,22 @@
 .container {
-margin:20px ;
+margin-top:50px ;
   margin:auto;
+}
+.col{
+  width: 100%;
+  margin-top:300px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .tour-card{
     background: rgb(233, 229, 229);
     border: none;
+    min-width: 30%;
 }
+.accordion-body{
+    background-color: rgb(229, 226, 226);
+}
+

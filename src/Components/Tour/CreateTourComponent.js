@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./CreateTourComponent.css";
 
 const CreateTourComponent = () => {
     return (
@@ -12,7 +13,7 @@ const CreateTourComponent = () => {
     );
 }
 
-export default CreateTourComponent
+export default CreateTourComponent;
 
 
 
